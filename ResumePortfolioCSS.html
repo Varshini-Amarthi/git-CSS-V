@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME(portfolio)(CSS)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>
+                <center>
+                    <h1 id="h1">Varshini's Portfolio</h1>
+                    <p class="pclass">Showcasing HTML Skills using Tables</p>
+                    <a href="#about" class="hclass">About</a><a>&nbsp;|</a>
+                    <a href="#skills" class="hclass">Skills</a><a>&nbsp;|</a>
+                    <a href="#projects" class="hclass">Projects</a><a>&nbsp;|</a>
+                    <a href="#contact" class="hclass">Contacts</a><a>&nbsp;|</a>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>
+                <h2 id="about">About Me</h2>
+                <center><img src="./images/Varshini Photo.jpg" width="80" height="80">
+                <p class="pclass">Passionate and detail-oriented fresher software developer with strong skills in Python, JavaScript, HTML, and CSS. Experienced in building web apps using Flask and front-end technologies. Quick learner with a solid grasp of programming fundamentals and problem-solving. Eager to contribute to dynamic development teams and grow in the tech industry.</p>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+        <tr>
+            <td width="20%" valign="top">
+                <h2 id="skills">Skills</h2>
+                <ul>
+                    <li class="liclass">
+                        Python
+                    </li>
+                    <li class="liclass">
+                        HTML/CSS/JavaScript
+                    </li>
+                    <li class="liclass">
+                        SQL
+                    </li>
+                    <li class="liclass">
+                        Git&Github
+                    </li>
+                </ul>
+                <h3>Skill Level</h3>
+                <table border="1" width="100%" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <td><h4 class="skclass">Skill</h4></td>
+                        <td><h4 class="skclass">Level</h4></td>
+                    </tr>
+                    <tr>
+                        <td class="langclass">HTML</td>
+                        <td class="levelclass">Expert</td>
+                    </tr>
+                    <tr>
+                        <td class="langclass">CSS</td>
+                        <td class="levelclass">Advanced</td>
+                    </tr>
+                    <tr>
+                        <td class="langclass">JavaScript</td>
+                        <td class="levelclass">Intermediate</td>
+                    </tr>
+                </table>
+            </td>
+            <td width="80%" valign="top">
+                <h2 id="projects">Projects</h2>
+                <p class="pclass"><strong class="sclass">Expense Tracker System:</strong>Programmed an expense tracker web app named “Varshini’s Expense Tracker” with interactive UI and dynamic balance updates using HTML, CSS, and JavaScript to help users manage their finances effectively. Keep track of your income and expenses, add new transactions, and visualize your financial health.</p>
+                <p class="pclass"><strong class="sclass">AI Based Motivation Tool:</strong>Built a motivational web app to help users regain focus by displaying inspiring quotes whenever they feel distracted. Used HTML, CSS (with glass morphism and animations), JavaScript, Flask, and a JSON file for quote management</p>
+                <center>
+                <img src="./images/Expense-Tracker Image.png" width="200" height="200">
+                <img src="./images/Distraction-Breaker Image.png" width="200" height="200">
+                </center>
+            </td>
+        </tr>
+    </table>
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>
+            <form>
+                <h2 id="contact">Contact Me</h2>
+                <label for="name" class="detailsclass">Full Name:</label>
+                <input type="text" placeholder="Enter Your Full Name:" name="name" id="name">
+                <br><br>
+                <label for="emailid" class="detailsclass">Email Id:</label>
+                <input type="emailid" placeholder="Enter Your Email Id:" name="emailid" id="emailid">
+                <br><br>
+                <label for="name" class="detailsclass">Gender:</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male" class="detailsclass">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female" class="detailsclass">Female</label>
+                <br><br>
+                <label for="name" class="detailsclass">Service Intrested:</label>
+                <input type="checkbox" id="Service Intrested"
+                <label for="Service Intrested"><a class="detailsclass">Web Design</a></label>
+                <input type="checkbox" id="Service Intrested"
+                <label for="Service Intrested"><a class="detailsclass">SEO</a></label>
+                <br><br>
+                <label for="name" class="detailsclass">Country:</label>
+                <select name="country" id="country">
+                <option value="-----select-----" disabled selected>-----Select-----</option>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="germany">Germany</option>
+                <option value="australia">Australia</option>
+                </select>
+                <br><br>
+                <label for="name" class="detailsclass">Message:</label>
+                <br>
+                <textarea rows="4" cols="40" placeholder="Type here..."></textarea>
+                <br>
+                <button type="submit" class="submitclass">Send</button>
+                <button type="reset"  class="submitclass">Clear</button>
+            </form>
+            </td>
+        </tr>
+    </table>
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>
+                <center>
+                    <p class="lastclass">Last Updated: August 13, 2025</p>
+                    <p class="lastclass">Created By Varshini</p>
+                    <p class="lastclass">Email:varshiniamarthi@gmail.com</p>
+                    <p class="lastclass">Website:varshini.com</p>
+                    <p class="lastclass">© 2025 Varshini. All rights reserved.</p>
+                </center>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

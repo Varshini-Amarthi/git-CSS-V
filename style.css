@@ -1,0 +1,65 @@
+*{
+    background-color:cadetblue;
+    color:black;
+}
+
+/* /* h1{
+    color:red;
+} */
+/* p{
+    color:blueviolet;
+}
+#heading2{
+    color: blanchedalmond;
+}
+.heading3{
+    color: chartreuse;
+} */ 
+
+/* #heading2, heading3,p{
+    color: chocolate;
+} */
+
+#h1, h2, h3{
+    color:brown;
+}
+
+.pclass{
+    color:darkgreen;
+}
+
+.sclass{
+    color:darkslateblue;
+}
+
+.hclass{
+    color:darkmagenta;
+}
+
+.liclass{
+    color:blue;
+}
+
+.skclass{
+    color:darkmagenta;
+}
+
+.langclass{
+    color:chocolate;
+}
+
+.levelclass{
+    color:darkred;
+}
+
+.detailsclass{
+    color:deeppink;
+}
+
+.submitclass{
+    color:gold;
+}
+
+.lastclass{
+    color:indianred;
+}
