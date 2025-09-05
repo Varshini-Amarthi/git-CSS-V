@@ -21,9 +21,19 @@ body{
     margin: 20px 20px 20px 20px;
 }
 
+
+.card{
+    border: 3px;
+    padding: 15px;
+    width: 300px;
+    background-color: antiquewhite;
+}
+
+
 .car_image{
     width: 300px;
     height: 300px;
+    text-align: center;
 
     background-color: pink;
 
@@ -31,14 +41,16 @@ body{
 
     border: 5px solid green;
 
-    margin: 20px 20px 20px 20px;
+    margin: 20px 380px 20px 380px;
 }
+
 
 .titleclass{
     color: brown;
     width: 170px;
     font-style: italic;
     font: size 50px;
+    text-align: center;
 
     background-color: pink;
 
@@ -46,7 +58,7 @@ body{
 
     border: 5px solid green; 
 
-    margin: 20px 20px 20px 20px;
+    margin: 20px 440px 20px 440px;
 }
 
 .paraclass{
@@ -59,15 +71,12 @@ body{
 
     border: 5px solid green;
 
-    margin: 20px 20px 20px 20px;
+    margin: 20px 380px 20px 380px;
 }
 
 #tableclass1{
     padding:0px 200px 0px 200px;
 }
 
-#tableclass2{
-    padding: 0px 380px 0px 380px;
-}
 
 
