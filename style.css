@@ -20,7 +20,7 @@
     color: chocolate;
 } */
 
-#h1, h2, h3{
+/* #h1, h2, h3{
     color:brown;
 }
 
@@ -54,12 +54,119 @@
 
 .detailsclass{
     color:deeppink;
-}
+} */
 
-.submitclass{
+/* .submitclass{
     color:gold;
 }
 
 .lastclass{
     color:indianred;
+} */
+
+
+/*
+   Padding: created around the content
+   Border: created around the padding
+   Margin: created around the element or outside the element
+
+   Box model: created around entire processes
+
+   content, padding, margin, box model
+
+   content- it will accept width and height
+   padding- it will be apply the color
+   border- it will be also apply the colors for it and style for border
+   margin- it will accept the -ve values, it doesn't apply the colors
+
+   Note: in the document already default values for h1, p, div eill apply margin and padding
+
+   syntax for box-model: 
+
+   selectors{property:value
+             margin:value;
+             width:value;
+             height: value;
+             padding:value;
+             border:  value;
+   
+   };
+
+   div and span are non symantic elements
+
+   if there is no content bg color will not apply
+
+   margin will be around the whole element, no color applied for margin
+
+   Note: in CSS the negitive values are pulled and +ve values are pushed
+
+   Default of html page: 60px
+   
+   In the projects the margin will be applied top and bottom
+
+   Don't apply for left and right
+
+
+   Task(05/09): take a container put image in center, write text(title) down, and down a paragraph => in this way 5 cards
+*/
+
+.container{
+    background-color:brown;
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+    padding-right:20px ;
+    padding-bottom: 30px;
+    padding-left:40px ;
+
+    padding: 10px 20px;
+
+    border-top-width: 5px;
+    border-top-color: blue;            /* default color black*/
+    border-top-style: solid;
+
+    border-right-width: 5px;
+    border-right-color: aqua;
+    border-right-style: dashed;
+
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(30, 210, 135);
+    border-bottom-style: dotted;
+
+    border-left-width: 5px;
+    border-left-color: chocolate;
+    border-left-style: dotted;
+
+    border-color: black;                          /*simple way*/
+    border-style: solid;
+    border-width: 5px;   
+    
+    border: 5px dotted gold;                      /*one line way*/
+
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+
+    margin: 10px 20px 30px 40px;                    /*one line way*/  /* Default margin: 8px*/
+
+    *{
+        margin: 0;                                  /* to make margin zero*/
+        padding: 0;                                 /* to make padding zero*/
+        box-sizing: border-box;
+    }
+
+    h1{
+        /* give features we want*/
+        color:aqua;
+        font-style: italic;
+        margin: 0;
+    }
+
+
+
+
 }
+
+
+
