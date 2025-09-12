@@ -1,0 +1,229 @@
+/* 
+positions =>
+
+selector{
+   position:static(default), relative, absolute, fixed, sticky;
+   top:value;
+   bottom:value;
+   right:value;
+   left:value;
+}
+fixed => can be fixed at any position
+
+z-index => to get one layer up
+
+combinators
+
+1. simple
+2. combinators: indictaes one selector to another selectors
+
+1. child selector => (>)
+2. decandent selector => ()- space
+3. adjacent sibling selector/next sibling selector => (+)
+4. general sibling selector => (~)
+
+syntax:
+
+simple-selector combinator simple-selector{
+            property:value
+}
+
+/* 
+.parent{
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    position: relative;
+    bottom: 100px;      /*-ve values to pull and +ve values to push*/
+
+
+/* .child{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    position:absolute;              /*  checks for ansestors*/
+
+body {
+  margin: 0;
+  padding-top: 60px; 
+}
+
+.nav-container{
+  position: fixed;   
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:aqua;
+  padding: 18px;
+  display:flex;
+  justify-content:right;
+  z-index: 1000;
+}
+
+.nav-item {
+  margin-left: 0px;
+  margin-right: 50px;
+  position:sticky;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+}
+
+.h01{
+    width:10px;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 400px;
+}
+
+.h02{
+    width:10px;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0.100;
+    right: 1500px;
+    font-weight: normal;
+}
+
+
+
+.h11{
+    background-color: black;
+    width: 50px;
+    height: 40px;
+    position:absolute;
+    top: 450px;
+    right: 830px;
+    -webkit-text-fill-color: white;
+}
+
+.h12{
+    width: 50px;
+    height: 10px;
+    position:absolute;
+    top: 450px;
+    right: 760px;
+    -webkit-text-fill-color: white;
+}
+
+
+
+.img-container{
+    width: 350px;
+    height: 250px;
+    /* border: 1px solid; */
+    position: relative;
+    margin: 5px;
+    display: inline-flex;
+    border-radius: 10px;
+    left: 25px;
+    z-index: inherit;
+    /* overflow:visible; */
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+p{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 7px;
+    position: absolute;
+    top: 0;
+}
+
+h3{
+    font-weight: normal;
+}
+
+
+.pcls1{
+    background-color: white;
+    -webkit-text-fill-color: black;
+    top: 265px;
+    font-size:x-large;
+}
+
+.pcls2{
+    background-color: white;
+    -webkit-text-fill-color: black;
+    top: 320px;
+    font-size:large;
+}
+
+.pcls3{
+    background-color: white;
+    -webkit-text-fill-color: black;
+    top: 360px;
+    font-size:large;
+}
+
+.pcls4{
+    background-color: white;
+    -webkit-text-fill-color: black;
+    top: 2380px;
+    font-size:large;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.pcon{
+    width: 300px;
+    background-color:aliceblue;
+    -webkit-text-fill-color: black;
+    top: 450px;
+    right: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+input{
+    width: 98%;
+    height: 50px;
+    padding: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.submit{
+    width: 10%;
+    height: 50px;
+    background-color: black;
+    -webkit-text-fill-color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* 
+   .container>div>p{
+      background-color:red;         # applies for child
+   }
+
+   .container p{
+      background-color:red;         # applies for all
+   }
+
+   .container+p{ 
+      background-color:red;         # applies for next p after container
+   }
+
+   .container~p{
+      background-color:red;         # applies for all p's after container
+   }
+
+   Task: prepare all CSS topics upto now
+
+*/
+
+
