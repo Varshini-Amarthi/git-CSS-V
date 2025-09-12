@@ -54,7 +54,7 @@ body {
   left: 0;
   width: 100%;
   background-color:aqua;
-  padding: 18px;
+  padding: 30px;
   display:flex;
   justify-content:right;
   z-index: 1000;
@@ -85,7 +85,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0.100;
-    right: 1500px;
+    right: 1530px;
     font-weight: normal;
 }
 
